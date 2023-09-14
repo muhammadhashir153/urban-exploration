@@ -1,0 +1,691 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Welcome to our website dedicated to the exciting and growing world of urban exploration! Urban exploration, or 
+        urbex, is the practice of exploring abandoned or off-limits urban spaces.">
+        <!-- Animation Library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Bootstrap 5 CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+        <!--FOnt awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--Owl Carousel-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Local Style -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="icon" href="favicon.png">
+        <title>Urban Exploration</title>
+
+        <!---jQuery-->
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" 
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" 
+        crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <a href="#"><button id="back-to-top"><i class="fas fa-arrow-up"></i></button></a>
+
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg ">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./assets/images/logo.png" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about us.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blogs.html">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section data-aos="zoom-in" data-aos-duration="1500" id="main" class="container-fluid p-0 m-0">
+            <video class="p-0 m-0 " src="./assets/videos/main-bg.mp4" autoplay loop muted></video>
+            <div  id="video-content" class="container-fluid p-0 m-0 mx-auto my-auto ">
+                <div class="container ">
+                    <h1 class="display-1 ">Urban Exploration</h1>
+                    <p>
+                        Welcome to our website dedicated to the exciting and growing world of urban exploration! Urban exploration, or 
+                        urbex, is the practice of exploring abandoned or off-limits urban spaces. This activity has gained a large following 
+                        in recent years as more and more people seek to document and appreciate the beauty of urban decay.
+                    </p>
+                    <a href="about us.html"><button class="myBtn btn-grey">About Us</button></a>
+                </div>
+            </div>
+        </section>
+        <section id="cards-section" class="container">
+            <h1 class="display-3 mb-2 mt-5 shaded">Our Recent Exploration</h1>
+            <div class="row container">
+                <div data-aos="fade-down" data-aos-duration="1000" class="col-md-5 col-12 myCard p-0 ms-auto  m-5 m-2 py-3">
+                    <div class="row">
+                        <div class="col-sm-4 my-auto ">
+                            <img data-aos="fade" data-aos-duration="1500" src="./assets/images/modal/sadar1.jpg" alt="..." class="card-img">
+                        </div>
+                        <div class="col-sm-8 my-auto ">
+                            <p><i class="fa-regular fa-calendar-days"></i> 12th March, 2023</p>
+                            <h4>Saddar's Hidden Abode</h4>
+                            <p><small>Amidst the bustling streets and vibrant markets of Saddar, a forgotten relic of a bygone era stands silently. </small></p>
+                            <div class="text-end px-3 ">
+                                <button data-bs-target="#myModal" data-bs-toggle="modal" class="myBtn btn-grey">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-down" data-aos-duration="1000" class="col-md-5 col-12 myCard p-0 ms-auto m-5 m-2 py-3">
+                    <div class="row">
+                        <div class="col-sm-4 my-auto ">
+                            <img data-aos="fade" data-aos-duration="1500"  src="./assets/images/modal/mendoza2.jpg" alt="..." class="card-img">
+                        </div>
+                        <div class="col-sm-8 my-auto ">
+                            <p><i class="fa-regular fa-calendar-days"></i> 28 Feb, 2022</p>
+                            <h4>Mendoza Building</h4>
+                            <p><small>Today, the Mendoza Building's once-majestic façade is showing signs of wear and neglect. </small></p>
+                            <div class="text-end px-3 ">
+                                <button data-bs-target="#myModal2" data-bs-toggle="modal" class="myBtn btn-grey">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="col-md-5 col-12 myCard p-0 ms-auto  m-5 m-2 py-3 ">
+                    <div class="row">
+                        <div class="col-sm-4 my-auto ">
+                            <img data-aos="fade" data-aos-duration="1500" src="./assets/images/modal/darya1.jpg" alt="..." class="card-img">
+                        </div>
+                        <div class="col-sm-8 my-auto ">
+                            <p><i class="fa-regular fa-calendar-days"></i> 25 Sep, 2021</p>
+                            <h4>Do Darya's Hidden Relic</h4>
+                            <p><small>For urban explorers and photographers, the abandoned hotel in Do Darya offers an enchanting subject. </small></p>
+                            <div class="text-end px-3 ">
+                                <button data-bs-target="#myModal3" data-bs-toggle="modal" class="myBtn btn-grey">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="col-md-5 col-12 myCard p-0 ms-auto m-5 m-2 py-3">
+                    <div class="row">
+                        <div class="col-sm-4 my-auto ">
+                            <img data-aos="fade" data-aos-duration="1500"  src="./assets/images/modal/mosque1.jpg" alt="..." class="card-img">
+                        </div>
+                        <div class="col-sm-8 my-auto ">
+                            <p><i class="fa-regular fa-calendar-days"></i> 18 Jun, 2020</p>
+                            <h4>Forgotten Faith</h4>
+                            <p><small>Built decades ago, this place of worship was a spiritual haven for the community it served.</small></p>
+                            <div class="text-end px-3 ">
+                                <button data-bs-target="#myModal4" data-bs-toggle="modal" class="myBtn btn-grey">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="safety" class="container-fluid ">
+            <div class="row safety">
+                <div data-aos="zoom-in" data-aos-duration="1500" class="col-md-6 safety-img p-0 my-auto ">
+                    <img data-aos="fade-in" data-aos-duration="1000" src="./assets/images/safety.jpg" alt="...">
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" class="col-md-6 safety-bg p-0 my-auto ">
+                    <div class="p-5 p-0">
+                        <h1 class="display-3 shaded my-2">Safety Guidelines</h1>
+                        <p>
+                            While urban exploration can be exciting and rewarding, it is important to remember that it 
+                            can also be dangerous and illegal in some cases. Explorers need to be aware of the risks 
+                            involved in exploring abandoned and off-limits places, such as the risk of injury, arrest, 
+                            or exposure to hazardous materials. Our website provides information on how to approach urban 
+                            exploration safely and responsibly. <br><br>
+                            If you are interested in urban exploration, we invite you to explore our website and learn more 
+                            about this exciting and growing activity. With the right mindset and preparation, urban exploration 
+                            can be a fascinating and rewarding way to experience the hidden corners of the city.
+                        </p>
+                        <button data-bs-target="#myModal5" data-bs-toggle="modal" class="myBtn btn-orange">Safety Guidelines</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="container py-5">
+            <div class="row py-5">
+                <div data-aos="fade-up" data-aos-duration="1500" class="col-md-5 my-auto">
+                    <div>
+                        <h2 class="display-6 shaded">Unveiling Hidden Worlds</h2>
+                        <p>
+                            Explore our world through a lens of wonder and adventure. 
+                            Join us on a visual journey through forgotten places, 
+                            where the past meets the present and stories are waiting 
+                            to be discovered.
+                        </p>
+                        <a href="gallery.html"><button class="myBtn btn-orange">
+                            Our Gallery
+                        </button></a>
+                    </div>
+                </div>
+                <div class="col-md-7" >
+                    <div class="row my-3"  data-aos="fade-up" data-aos-duration="1500">
+                        <div  class="col-6">
+                            <img src="./assets/images/gallery/04-min.jpg" alt="Image 4" data-bs-toggle="modal" data-bs-target="#myModal6">
+                        </div>
+                        <div  class="col-6">
+                            <img src="./assets/images/gallery/11.jpg" alt="Image 8" data-bs-toggle="modal" data-bs-target="#myModal6">
+                        </div>
+                    </div>
+                    <div class="row my-3" data-aos="fade-up" data-aos-duration="1500">
+                        <div  class="col-6">
+                            <img src="./assets/images/gallery/12.jpg" alt="Image 9" data-bs-toggle="modal" data-bs-target="#myModal6">
+                        </div>
+                        <div class="col-6">
+                            <img src="./assets/images/gallery/13.jpg" alt="Image 10" data-bs-toggle="modal" data-bs-target="#myModal6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="container py-5">
+            <h1  data-aos="slide-down" data-aos-duration="1500" class="display-4 shaded">Discover Our Mission</h1>
+            <div  data-aos="slide-up" data-aos-duration="1500" class="row py-5">
+                <div class="col-md-4 about-bg p-3">
+                    <p class="display-4 "><i style="color: #fe8128;" class="fa-regular fa-gem shaded"></i></p>
+                    <h2 class="shaded">Discovering Hidden Gems</h2>
+                    <p>
+                        Urban exploration allows individuals to uncover hidden and forgotten places 
+                        within cities that are not typically accessible or well-known to the general 
+                        public. Explorers get the chance to stumble upon abandoned buildings, old factories, 
+                        forgotten tunnels, and other urban structures with rich histories and unique 
+                        architectural features.
+                    </p>
+                </div>
+                <div class="col-md-4 about-bg p-3">
+                    <p class="display-4 "><i style="color: #fe8128;" class="fa-regular fa-heart shaded"></i></p>
+                    <h2 class="shaded">Historical Significance</h2>
+                    <p>
+                        Many abandoned or neglected urban sites hold significant historical value. Explorers 
+                        often encounter remnants of the past, reflecting the changing urban landscape and 
+                        the stories of the people who lived or worked there. These locations can offer a glimpse 
+                        into the past and provide an opportunity for historical preservation through documentation.
+                    </p>
+                </div>
+                <div class="col-md-4 about-bg p-3">
+                    <p class="display-4 "><i style="color: #fe8128;" class="fas fa-camera-retro shaded"></i></p>
+                    <h2>Photographic Opportunities</h2>
+                    <p>
+                        Urban exploration provides photographers with an incredible canvas for creativity. 
+                        The decaying beauty of abandoned buildings, graffiti-covered walls, and striking 
+                        juxtapositions of nature reclaiming urban spaces can yield breathtaking and hauntingly 
+                        beautiful images.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" data-aos-duration="1500"  id="home-blog" class="container">
+            <h1 class="display-4 shaded">Our Featured Posts</h1>
+            <div id="blog-caro" class="owl-carousel my-5">
+                <div class="item container ">
+                    <div>
+                        <img src="./assets/images/legal.jpg" alt="">
+                        <div class="carousel-content text-center p-3">
+                            <h2 class="shaded">Legal Consideration</h2>
+                            <p>
+                                You must obtain permission from the copyright holder before 
+                                using any copyrighted material, such as images, text, or videos, 
+                                in your blog posts.
+                            </p>
+                            <a href="./blogs/legal.html" target="_blank"><button class="myBtn btn-grey">Read More</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item container ">
+                    <div>
+                        <img src="./assets/images/gear guide.jpg" alt="">
+                        <div class="carousel-content text-center p-3">
+                            <h2 class="shaded"> Gear Guide</h2>
+                            <p>
+                                on urban exploration, the significance of sturdy footwear cannot be overstated. 
+                                The journey will encompass traversing an array of terrains, ranging
+                            </p>
+                            <button class="myBtn btn-grey">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item container ">
+                    <div>
+                        <img src="./assets/images/tips.jpg" alt="">
+                        <div class="carousel-content text-center p-3">
+                            <h2 class="shaded">Tips For Urban Uxploration</h2>
+                            <p>
+                                do some research to learn about the location. This includes
+                                 checking local laws to make sure you're not trespassing, 
+                                 and finding out if the site is safe to 
+                            </p>
+                            <button class="myBtn btn-grey">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                
+                $(document).ready(function() {
+                    $('#blog-caro').owlCarousel({
+                        loop: true,
+                        margin: 10,
+                        autoplay: true,
+                        nav: false,
+                        dots:false,
+                        responsive: {
+                            0: { items: 1 },
+                            1200: { items: 2 }
+                        }
+                    });
+                });
+            </script>
+        </section>
+        <footer class="container-fluid  ">
+            <div class="row py-5 container ">
+                <div class="col-sm-4 my-auto">
+                    <img src="./assets/images/logo.png" alt="..." />
+                </div>
+                <div class="col-sm-4 my-auto px-5 ">
+                    <div>
+                        <h3 class="shaded">Our Pages</h3>
+                        <ul class="footer-link">
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li><a href="about us.html">About</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="blogs.html">Blogs</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+    
+                    </div>
+                </div>
+                <div class="col-sm-4 my-auto px-5">
+                    <div>
+                        <h3 class="shaded">Proud Team Members</h3>
+                        <ul class="footer-link">
+                            <li class="shaded">Ansa Tariq (Faculty)</li>
+                            <li class="shaded">Muhammad Hashir Siddiqui</li>
+                            <li class="shaded">Huzefa Rehman</li>
+                            <li class="shaded">Nabiha Zafar</li>
+                            <li class="shaded">Minal Rahim</li>
+                            <li class="shaded">Muhammad Haider Ali</li>
+                        </ul>
+        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+        <!---All Modal content-->
+        <section id="modals">
+            <!--Sadar popup-->
+            <div class="modal-xl modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLabel">Saddar's Hidden Abode</h2>
+                            <button type="button" class="myBtn" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-close"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="sadar" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/images/modal/sadar1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/images/modal/sadar2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/images/modal/sadar3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#sadar" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#sadar" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <h1 class="text-center ">A Time-Warped Mansion in Saddar</h1>
+                            <p>
+                                Amidst the bustling streets and vibrant markets of Saddar, a forgotten relic of a bygone era stands silently. 
+                                An abandoned house, tucked away from the chaos of the city, has become a time capsule frozen in time. Its 
+                                weathered facade and overgrown gardens whisper stories of yesteryears.<br><br>
+                                Once, this house resonated with laughter and echoed with the footsteps of a family. Now, its windows are shattered, 
+                                its walls adorned with graffiti, and its rooms filled with the echoes of solitude. Nature, in its relentless pursuit, 
+                                has begun to reclaim this once-grand structure, its tendrils of ivy embracing the decaying walls.<br><br>
+                                As you step inside, you're transported to another era. The creaking floorboards seem to sigh with the weight of 
+                                forgotten memories. A forgotten tea set on the dining table tells tales of evenings spent in conversation, while 
+                                faded photographs scattered about depict faces long gone, their stories now etched in the peeling wallpaper.<br><br>
+                                Sunlight filters through the dusty curtains, casting ethereal patterns on the dilapidated furniture. In the stillness, 
+                                you can almost hear the faint echoes of conversations, the laughter of children, and the melodies of forgotten songs.<br><br>
+                                This abandoned house in Saddar is more than just a decaying structure; it is a melancholic reminder of the passage of time 
+                                and the transience of life. In its solitude, it stands as a poignant testament to the memories and stories that once filled 
+                                its rooms, waiting for someone to rediscover and preserve its hidden history.
+                            </p>
+                            
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="myBtn btn-orange" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---Mendoza popup-->
+            <div class="modal-xl modal fade" id="myModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLabel">Mendoza Building</h2>
+                            <button type="button" class="myBtn" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-close"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="mendoza" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/images/modal/mendoza1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/images/modal/mendoza2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#mendoza" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#mendoza" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <h1 class="text-center ">A Legacy of Architectural Grandeur</h1>
+                            <p>
+                                Tucked away in the heart of downtown Saddar, the Mendoza Building stands as a testament 
+                                to the city's rich architectural heritage. This iconic structure, with its timeless beauty 
+                                and historic significance, has etched its presence into the very fabric of the community. <br><br>
+                                <b>A Glimpse into the Past</b><br><br>
+                                Built in the early 20th century, the Mendoza Building was a visionary project of its time. Its 
+                                neoclassical façade adorned with intricate Corinthian columns and ornate detailing showcased the 
+                                opulence of the era. Originally commissioned by a prominent merchant family, the building served 
+                                both as their residence and as a hub for their thriving business endeavors. <br><br>
+                                <b>Architectural Marvel</b><br><br>
+                                Architecturally, the Mendoza Building is a masterpiece. Its imposing three-story structure is a 
+                                harmonious blend of European architectural influences and local craftsmanship. The grand arched 
+                                entranceway welcomes visitors with an air of regal sophistication, while the soaring windows on 
+                                each floor allow natural light to cascade into the building's interior. <br><br>
+                                <b>Historical Significance</b><br><br>
+                                Over the years, the Mendoza Building witnessed the changing tides of Saddar's history. It bore 
+                                witness to the city's growth, the tumultuous periods of unrest, and the eventual modernization 
+                                of the area. In its heyday, it served as a cultural center, hosting gatherings, art exhibitions, 
+                                and social events that left an indelible mark on the community. <br><br>
+                                <b>A Fading Glory</b><br><br>
+                                Today, the Mendoza Building's once-majestic façade is showing signs of wear and neglect. The passage 
+                                of time and the challenges of urban development have taken their toll on this architectural gem. However, 
+                                efforts are underway by preservationists and local authorities to restore its former grandeur and ensure 
+                                that this historical landmark continues to be a part of Saddar's future.
+                            </p>
+                            
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="myBtn btn-orange" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Do Darya popup-->
+            <div class="modal-xl modal fade" id="myModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLabel">The Story of Do Darya's Hotel</h2>
+                            <button type="button" class="myBtn" data-bs-dismiss="modal" aria-label="Close">
+                                <i class="fas fa-close"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="darya" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/images/modal/darya1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/images/modal/darya2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#darya" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#darya" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <h1 class="text-center ">The Mysterious Abandoned Hotel</h1>
+                            <p>
+                                <b>Lost in Time: The Do Darya Abandoned Hotel</b><br><br>
+                                Nestled along the picturesque waterfront of Do Darya in Karachi, there exists a hauntingly 
+                                beautiful relic of a bygone era - an abandoned hotel that once symbolized luxury and elegance. 
+                                This forgotten hotel, with its decaying grandeur, tells a tale of Karachi's history and the 
+                                changing tides of time. <br><br>
+                                <b>A Glimpse into History</b><br><br>
+                                Constructed during the mid-20th century, the Do Darya Abandoned Hotel was a beacon of opulence, 
+                                catering to travelers and locals alike. With its sea-facing rooms, lush gardens, and unmatched 
+                                hospitality, it was a preferred destination for those seeking respite from the bustling city. <br><br>
+                                <b>The Rise and Fall</b><br><br>
+                                However, as Karachi evolved and new entertainment hubs emerged, the hotel's popularity dwindled. 
+                                Economic challenges, changing demographics, and shifting preferences conspired to push this 
+                                once-vibrant establishment into obscurity. It eventually closed its doors, leaving behind a haunted 
+                                shell that time seemed to have forgotten. <br><br>
+                                <b>A Photographer's Dream</b><br><br>
+                                For urban explorers and photographers, the abandoned hotel in Do Darya offers an enchanting subject. 
+                                Its faded wallpaper, shattered windows, and overgrown gardens paint a vivid picture of neglect and 
+                                abandonment. The building's eerie silence is punctuated only by the whispers of sea breezes and the 
+                                echoes of its former glory. <br><br>
+                                <b>Local Legends and Myths</b><br><br>
+                                As with many abandoned places, the Do Darya Abandoned Hotel has not escaped the creation of local 
+                                legends and myths. Some believe the hotel is haunted, with stories of ghostly apparitions and unexplained 
+                                phenomena. These tales add to the mystique of the place, drawing in curious visitors and thrill-seekers. <br><br>
+                                <b>Preservation Efforts</b><br><br>
+                                In recent years, there have been renewed efforts to preserve and restore this piece of Karachi's history. 
+                                Various preservation groups and local authorities are exploring ways to breathe new life into the abandoned 
+                                hotel, potentially transforming it into a cultural or heritage center that pays homage to its past while 
+                                embracing its future.
+                            </p>
+                            
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="myBtn btn-orange" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Mosque Popup-->
+            <div class="modal-xl modal fade" id="myModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLabel">Reverence in Ruins: An Abandoned Place of Worship</h2>
+                            <button type="button" class="myBtn" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-close"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="mosque" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/images/modal/mosque1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/images/modal/mosque2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#mosque" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#mosque" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <h1 class="text-center ">The Tale of an Abandoned Religious Site</h1>
+                            <p>
+                                <b>Sacred Silence: Exploring an Abandoned Place of Worship</b><br><br>
+                                Deep within the heart of our bustling city lies a place where time has stood still, 
+                                and echoes of devotion have faded into silence. This is the story of an abandoned place 
+                                of worship, a sanctuary that once brimmed with faith and congregations but now stands 
+                                in solitude, a testament to the passage of time. <br><br>
+                                <b>A Reverent History</b><br><br>
+                                Built decades ago, this place of worship was a spiritual haven for the community it served. 
+                                Its architecture spoke of reverence, with intricate stained glass windows, a majestic altar, 
+                                and finely crafted pews that once held the faithful in prayer. It was a place where ceremonies 
+                                were celebrated, and where solace was sought in times of joy and sorrow. <br><br>
+                                <b>Descent into Abandonment</b><br><br>
+                                As the years passed, demographic shifts, changing beliefs, and urban development led to a 
+                                decline in attendance. Slowly, the faithful moved on to newer places of worship, and the doors 
+                                of this once-vibrant sanctuary closed. With every passing day, the building aged, and its 
+                                spiritual presence gave way to an eerie silence. <br><br>
+                                <b>A Journey into the Past</b><br><br>
+                                Urban explorers and history enthusiasts have found their way into the abandoned place of worship, 
+                                capturing its faded beauty through their lenses. The play of light through the dusty windows 
+                                creates an almost mystical atmosphere, as if the divine presence still lingers within these hallowed 
+                                walls. <br><br>
+                                <b>Respect and Preservation</b><br><br>
+                                Despite its abandonment, this place of worship commands respect. It is a reminder of the deep faith 
+                                that once filled its halls and the countless lives it touched. Local preservationists and community members 
+                                are exploring ways to preserve and potentially repurpose this sacred space, ensuring it continues to be a 
+                                part of the community's history. <br><br>
+                                <b>A Reflection on Time</b><br><br>
+                                The abandoned place of worship is more than just a building; it is a reflection of the evolving landscape of 
+                                our city. It reminds us of the passage of time, the changing face of faith, and the need to preserve our 
+                                cultural and spiritual heritage. As we explore its faded beauty, we also contemplate the enduring power of 
+                                faith and the significance of places that once held our most profound moments of devotion.
+                            </p>
+                            
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="myBtn btn-orange" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Safety Popup-->
+            <div class="modal-xl modal fade" id="myModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLabel">Safety Guidelines</h2>
+                            <button type="button" class="myBtn" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-close"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <h1 class="text-center ">Maintaining Situational Awareness</h1>
+                            <p>
+                                Safety is paramount, whether you're exploring abandoned places, traveling, or engaging in any 
+                                other activities. Here are some safety guidelines to keep in mind when exploring abandoned 
+                                locations.
+                                <b>Prioritize Safety Over Adventure</b><br><br>
+                                Your safety should always be your top priority. Don't take unnecessary risks or push your boundaries 
+                                beyond what you're comfortable with. <br><br>
+                                <b>Research and Plan</b><br><br>
+                                Before visiting an abandoned place, research the location thoroughly. Understand the potential risks, 
+                                legal implications, and any local regulations. Plan your visit accordingly. <br><br>
+                                <b>Tell Someone About Your Plans</b><br><br>
+                                Inform a trusted friend or family member about your exploration plans. Share your location and expected 
+                                return time. This way, someone knows where you are in case of an emergency. <br><br>
+                                <b>Go with a Group</b><br><br>
+                                Whenever possible, explore abandoned places with a group of people. A group can provide support, help in 
+                                emergencies, and deter potential hazards. <br><br>
+                                <b>Dress Appropriately</b><br><br>
+                                Wear appropriate clothing and footwear for the environment. Abandoned places may have hazards like broken 
+                                glass, rusty nails, or unstable floors. <br><br>
+                                <b>Carry Essential Gear</b><br><br>
+                                Bring necessary equipment such as flashlights, first-aid kits, dust masks, and gloves. These items can help 
+                                you stay safe and comfortable during your exploration. <br><br>
+                                <b>Stay Aware of Your Surroundings</b><br><br>
+                                Be vigilant and watch for potential dangers, including unstable structures, wildlife, or other explorers. 
+                                Always be mindful of your surroundings. <br><br>
+                                <b>Avoid Hazardous Areas</b><br><br>
+                                Stay away from areas that appear structurally unsound, such as crumbling walls or floors. Don't enter if 
+                                there's a risk of collapse. <br><br>
+                                <b>Beware of Asbestos and Mold</b><br><br>
+                                Many older buildings may contain asbestos or mold, which can be harmful when disturbed. Avoid disturbing 
+                                materials that may release these substances into the air. <br><br>
+                                <b>Respect Property Rights</b><br><br>
+                                Always respect private property rights and obey any posted "No Trespassing" signs. Seek permission from 
+                                property owners when necessary. <br><br>
+                                <b>Stay Legal</b><br><br>
+                                Familiarize yourself with local laws regarding urban exploration. Some areas may have strict regulations 
+                                or penalties for trespassing.
+                            </p>
+                            
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="myBtn btn-orange" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Popup -->
+            <div class="modal fade" id="myModal6" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="myBtn ms-auto " data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-close"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="" alt="Modal Image" id="gallery-img" class="img-fluid">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="myBtn btn-grey" id="prevBtn">&lt; Previous</button>
+                            <button type="button" class="myBtn btn-grey" id="nextBtn">Next &gt;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Scripts -->
+        
+        <!--Owl Carousel-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- Animation script -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- Bootstrap 5 JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Local File -->
+        <script src="./assets/js/functions.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <!--FOnt awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Local Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="favicon.png">
+    <title>Gallery | Urban Exploration</title>
+    
+</head>
+<body>
+    <a href="#"><button id="back-to-top"><i class="fas fa-arrow-up"></i></button></a>
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/images/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about us.html">About</a>
+                        </li>
+                        <li class="nav-item  active">
+                            <a class="nav-link  active" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blogs.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="hero-gallery" class="container-fluid " data-aos="zoom-in" data-aos-duration="1200" >
+        <div>
+            <h1 class="display-1 shaded">Hidden Worlds Revealed</h1>
+        </div>
+    </section>
+    <section id="gallery" class="container py-5">
+        <button id="abond-btn" class="myBtn btn-grey">Abandoned</button>
+        <button id="destroy-btn" class="myBtn btn-orange">Destroyed</button>
+        <div id="abandoned" class="container mt-5 gallery-img">
+            <h2 class="display-3 shaded">Abandoned</h2>
+            <div class="row py-3">
+                <!-- Image Gallery -->
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./assets/images/gallery/14-min.jpg" alt="Image 1" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="card">
+                        <img src="./assets/images/gallery/15-min.jpg" alt="Image 2" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <!-- Image Gallery -->
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./assets/images/gallery/16-min.jpg" alt="Image 3" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./assets/images/gallery/17-min.jpg" alt="Image 18" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./assets/images/gallery/18-min.jpg" alt="Image 5" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <!-- Image Gallery -->
+                <div class="col-8">
+                    <div class="card">
+                        <img src="./assets/images/gallery/19-min.jpg" alt="Image 6" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./assets/images/gallery/20-min.jpg" alt="Image 7" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="destroyed" class="container mt-5 gallery-img">
+            <h2 class="display-3 shaded">Destroyed</h2>
+            <div class="row py-3">
+                <!-- Image Gallery -->
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./assets/images/gallery/21.jpg" alt="Image 11" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="card">
+                        <img src="./assets/images/gallery/22.jpg" alt="Image 12" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <!-- Image Gallery -->
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./assets/images/gallery/23.jpg" alt="Image 13" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./assets/images/gallery/24.jpg" alt="Image 14" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./assets/images/gallery/25.jpg" alt="Image 15" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <!-- Image Gallery -->
+                <div class="col-8">
+                    <div class="card">
+                        <img src="./assets/images/gallery/26.jpg" alt="Image 16" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./assets/images/gallery/27.jpg" alt="Image 17" data-bs-toggle="modal" data-bs-target="#myModal6">
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+    <footer class="container-fluid  ">
+        <div class="row py-5 container ">
+            <div class="col-sm-4 my-auto">
+                <img src="./assets/images/logo.png" alt="..." />
+            </div>
+            <div class="col-sm-4 px-5 ">
+                <div>
+                    <h3 class="shaded">Our Pages</h3>
+                    <ul class="footer-link">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about us.html">About</a></li>
+                        <li><a class="active" href="gallery.html">Gallery</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-sm-4 px-5">
+                <div>
+                    <h3 class="shaded">Proud Team Members</h3>
+                    <ul class="footer-link">
+                        <li class="shaded">Huzefa Rehman</li>
+                        <li class="shaded">Nabiha Zafar</li>
+                        <li class="shaded">Minal Rahim</li>
+                        <li class="shaded">Muhammad Haider Ali</li>
+                        <li class="shaded">Muhammad Hashir Siddiqui</li>
+                    </ul>
+    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Popup -->
+    <div class="modal fade" id="myModal6" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="myBtn ms-auto " data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-close"></i></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" alt="Modal Image" id="gallery-img" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="myBtn btn-grey" id="prevBtn">&lt; Previous</button>
+                    <button type="button" class="myBtn btn-grey" id="nextBtn">Next &gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Animation script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!---jQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+    crossorigin="anonymous"></script>
+    <!-- Local File -->
+    <script src="./assets/js/functions.js"></script>
+    <script>
+        category();
+    </script>
+</body>
+</html>

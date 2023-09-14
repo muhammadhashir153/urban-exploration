@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <!--FOnt awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Local Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="favicon.png">
+    <title>Blogs | Urban Exploration</title>
+
+    <!---jQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" 
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" 
+    crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <a href="#"><button id="back-to-top"><i class="fas fa-arrow-up"></i></button></a>
+    <!--Sidebar-->
+    <div class="offcanvas offcanvas-end" id="sidebar">
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title">Table of Content</h2>
+            <button type="button" class="myBtn" data-bs-dismiss="offcanvas">
+                <i class="fas fa-close"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ol class="sidebar-link">
+                <li><a href="#legal">Legal Consideration</a></li>
+                <li><a href="#gear">Gear Guide</a></li>
+                <li><a href="#tips">Tips for Urban Exploration</a></li>
+                <li><a href="#photo">Photography and Documentation</a></li>
+                <li><a href="#forum">Community and Forums</a></li>
+                <li><a href="#place">Exploration of Abandoned Places</a></li>
+                <li><a href="#culture">Cultural and Historical Interest</a></li>
+                <li><a href="#aware">Environmental Awareness</a></li>
+                <li><a href="#prob">Adaptability and Problem-Solving</a></li>
+                <li><a href="#express">Artistic Expression</a></li>
+
+            </ol>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/images/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about us.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link active " href="blogs.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="hero-gallery" class="container-fluid " data-aos="zoom-in" data-aos-duration="1200" >
+        <div>
+            <h1 class="display-1 shaded">In the Footsteps of Explorers</h1>
+        </div>
+    </section>
+    <section id="home-blog" class="container">
+        <h1 class="display-4 shaded pt-5">Our Featured Posts</h1>
+        <div id="btn-fixed" class="ms-auto ">
+            <button class="myBtn btn-orange" type="button" data-bs-target="#sidebar">
+                <i class="fas fa-list-ol"></i>
+            </button>
+        </div>
+        <div id="blog-caro" class=" my-5">
+            <div id="legal" class="item container ">
+                <div  data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="./assets/images/legal.jpg" alt="">
+                    <div class="carousel-content text-center p-3">
+                        <h2 class="shaded">Legal Consideration</h2>
+                        <p>
+                            You must obtain permission from the copyright holder before 
+                            using any copyrighted material, such as images, text, or videos, 
+                            in your blog posts.
+                        </p>
+                        <a href="./blogs/legal.html" target="_blank">
+                            <button class="myBtn btn-grey">
+                                Read More
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="gear" class="item container ">
+                <div  data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="./assets/images/gear guide.jpg" alt="">
+                    <div class="carousel-content text-center p-3">
+                        <h2 class="shaded"> Gear Guide</h2>
+                        <p>
+                            on urban exploration, the significance of sturdy footwear cannot be overstated. 
+                            The journey will encompass traversing an array of terrains, ranging
+                        </p>
+                        <a href="./blogs/gear.html" target="_blank">
+                            <button class="myBtn btn-grey">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="tips" class="item container ">
+                <div data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="./assets/images/tips.jpg" alt="">
+                    <div class="carousel-content text-center p-3">
+                        <h2 class="shaded">Tips For Urban Uxploration</h2>
+                        <p>
+                            do some research to learn about the location. This includes
+                             checking local laws to make sure you're not trespassing, 
+                             and finding out if the site is safe to 
+                        </p>
+                        <a href="./blogs/tips.html" target="_blank">
+                            <button class="myBtn btn-grey">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="photo" class="item container ">
+                <div data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="./assets/images/tips.jpg" alt="">
+                    <div class="carousel-content text-center p-3">
+                        <h2 class="shaded">Photography and Documentation</h2>
+                        <p>
+                            Many urban explorers document their adventures through photography and videos. 
+                            These visuals capture the history, architecture, and decay of the places they visit.
+                        </p>
+                        <a href="./blogs/photography.html" target="_blank">
+                            <button class="myBtn btn-grey">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="forum" class="item container ">
+                <div data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="./assets/images/21.jpg" alt="">
+                    <div class="carousel-content text-center p-3">
+                        <h2 class="shaded">Community and Forums</h2>
+                        <p>
+                            Urban explorers often connect through 
+                            online forums, social media groups, and local communities. 
+                        </p>
+                        <a href="./blogs/forums.html" target="_blank">
+                            <button class="myBtn btn-grey">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="place" class="item container ">
+                <div data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="./assets/images/22.jpg" alt="">
+                    <div class="carousel-content text-center p-3">
+                        <h2 class="shaded">Exploration of Abandoned Places</h2>
+                        <p>
+                            Urban explorers are drawn to places like abandoned factories, hospitals, asylums,
+                             schools, tunnels, and even theme parks that have been left to decay over time.
+                        </p>
+                        <a href="./blogs/abandoned.html" target="_blank">
+                            <button class="myBtn btn-grey">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="culture" class="item container ">
+                <div data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="./assets/images/23.jpg" alt="">
+                    <div class="carousel-content text-center p-3">
+                        <h2 class="shaded">Cultural and Historical Interest</h2>
+                        <p>
+                            Urban exploration is not just about adventure; it's also a way to connect with history and culture.
+                             Many abandoned sites have stories to tell about their past and the communities that once thrived there.
+                        </p>
+                        <a href="./blogs/cultural.html" target="_blank">
+                            <button class="myBtn btn-grey">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="aware" class="item container ">
+                <div data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="./assets/images/24.jpg" alt="">
+                    <div class="carousel-content text-center p-3">
+                        <h2 class="shaded">Environmental Awareness</h2>
+                        <p>
+                            Responsible urbexers are mindful of the environmental impact of their activities and aim to leave minimal traces behind.
+                             They avoid disturbing wildlife and ecosystems in and around abandoned areas. 
+                        </p>
+                        <a href="./blogs/environment.html" target="_blank">
+                            <button class="myBtn btn-grey">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="prob" class="item container ">
+                <div data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="./assets/images/25.jpg" alt="">
+                    <div class="carousel-content text-center p-3">
+                        <h2 class="shaded">Adaptability and Problem-Solving</h2>
+                        <p>
+                            Urban explorers often need to adapt to unexpected challenges, 
+                            such as navigating dark and narrow spaces, overcoming obstacles, or finding alternative entry points.
+                        </p>
+                        <a href="./blogs/adaptability.html" target="_blank">
+                            <button class="myBtn btn-grey">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="express" class="item container ">
+                <div data-aos="zoom-in" data-aos-duration="1500">
+                    <img src="./assets/images/26.jpg" alt="">
+                    <div class="carousel-content text-center p-3">
+                        <h2 class="shaded">Artistic Expression</h2>
+                        <p>
+                            Some urbexers view their exploration
+                             and documentation as a form of artistic expression, using abandoned locations as a canvas to create compelling visual narratives.
+                             
+                        </p>
+                        <a href="./blogs/artistic.html" target="_blank">
+                            <button class="myBtn btn-grey">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid  ">
+        <div class="row py-5 container ">
+            <div class="col-sm-4 my-auto">
+                <img src="./assets/images/logo.png" alt="..." />
+            </div>
+            <div class="col-sm-4 px-5 ">
+                <div>
+                    <h3 class="shaded">Our Pages</h3>
+                    <ul class="footer-link">
+                        <li><a  href="index.html">Home</a></li>
+                        <li><a href="about us.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a class="active" href="blogs.html">Blogs</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-sm-4 px-5">
+                <div>
+                    <h3 class="shaded">Proud Team Members</h3>
+                    <ul class="footer-link">
+                        <li class="shaded">Ansa Tariq (Faculty)</li>
+                        <li class="shaded">Muhammad Hashir Siddiqui</li>
+                        <li class="shaded">Huzefa Rehman</li>
+                        <li class="shaded">Nabiha Zafar</li>
+                        <li class="shaded">Minal Rahim</li>
+                        <li class="shaded">Muhammad Haider Ali</li>
+                    </ul>
+    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Scripts -->
+    
+    <!--Owl Carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Animation script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Local File -->
+    <script src="./assets/js/functions.js"></script>
+    <script>
+        $(document).ready(function () {
+            var sidebar = $('#sidebar');
+            var openSidebarButton = $('[data-bs-target="#sidebar"]');
+            
+            openSidebarButton.on('click', function () {
+                // Open the sidebar when the button is clicked
+                sidebar.offcanvas('show');
+            });
+    
+            // Prevent the page from scrolling to the top when the sidebar is closed
+            sidebar.on('hidden.bs.offcanvas', function (e) {
+                e.preventDefault();
+            });
+        });
+    </script>
+    
+</body>
+</html>
